@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<style type="text/css">
+	*{
+		box-sizing: border-box;
+	}
+	.header{
+		width:1200px;
+		height: 100px;
+		margin: 0 auto;
+		position: relative;
+	}
+	
+	.logo{
+		margin-top: 20px;
+    	background: url('images/logo.png') no-repeat;
+    	width: 318px;
+    	height: 70px;
+    	display: inline-block;
+
+	}
+	#nav{
+		position: absolute;
+		left: 390px;
+		top: 45px;
+
+		
+	}
+	#nav li{float: left;}
+	#nav li a{
+		color: #333;
+		font-size: 18px;
+		font-weight: bold;
+		margin-left:65px; 
+	}
+	#nav li a:hover{
+		color: #2288f6;
+	}
+	.img1 img{
+		width: 100%;
+		height: 560px;
+	}
+	section{
+		width: 100%;
+	}
+	.content1{
+		width: 1008px;
+		margin: 0 auto;
+	}
+	.line1, .line2{height: 1px; width: 423px; border:1px solid #ccc; display: block; margin-top: 77px;}
+	.content1 h3{
+		width: 125px;
+		height: 45px;
+		background: url('images/sprite-tit.png') -18px -37px no-repeat;
+		margin: 64px 17px 50px;
+	}
+	.ol li{   
+		width: 256px;
+    	vertical-align: top;
+    	text-align: center;
+    	margin: 0 39px;
+    	display: inline-block;
+    }
+    .icon{
+    	margin: 0 auto;
+    	width: 130px;
+    	height: 130px;
+    	background:url(images/yingxiao_ico.png) no-repeat;
+
+    }
+    .icon1{
+    	background:url(images/yingxiao_ico.png) 0 -130px no-repeat;
+    }
+    .icon2{
+    	background:url(images/yingxiao_ico.png) 0 -260px no-repeat;
+    }
+    .home{
+    	width: 1200px;
+    	margin: 0 auto;
+    	overflow: hidden;
+    }
+    .home li{
+    	width: 260px;
+    	height: 500px;
+    	margin-right: 53px;
+    	float: left;
+    }
+    .home li div{
+    	width: 100%;
+    	height: 258px;
+    	background:url(images/home.png)no-repeat;
+    }
+    .home li h3{
+    	font-size: 18px;
+    	font-weight: bold;
+    	margin-top:22px; 
+    }
+    .home li p{
+    	font-size: 12px;
+    	color: #808080;
+    	margin-top: 20px;
+    }
+   .home .home_img1{
+    	background:url(images/home.png) 0 -258px no-repeat;
+    }
+   .home .home_img2{
+    	background:url(images/home.png) 0 -516px no-repeat;
+    }
+   .home .home_img3{
+    	background:url(images/home.png) 0 -774px no-repeat;
+    }
+    .banner{
+    	width: 345px;
+    	height: 37px;
+    	background:url(images/fenxiao_sprite.png);
+    	margin:66px auto 134px;
+    	display: block;
+    }
+    .home2{
+    	width: 1200px;
+    	margin: 0 auto;
+    	overflow: hidden; 
+    }
+    .home2 li{
+    	width: 226px;
+    	height: 430px;
+    	border: 1px solid #e7e8e9;
+    	float: left;
+    	margin-right:17px; 
+    	
+    }
+    .home2 p{
+    	width: 187px;
+    	height: 178px;
+    	background: url(images/home2.png)no-repeat;
+    	margin: 46px auto 109px;
+    }
+    .home2 .home2_img1 {
+    	background: url(images/home2.png) 0 -178px no-repeat;
+    }
+    .home2 .home2_img2{
+    	background: url(images/home2.png) 0 -356px no-repeat;
+    }
+    .home2 .home2_img3{
+    	background: url(images/home2.png) 0 -534px no-repeat;
+    }
+    .home2 .home2_img4{
+    	background: url(images/home2.png) 0 -712px no-repeat;
+    }
+    </style>;
+</head>
+<body>
+	<div>
+		<header class="header">
+		<p class="logo"></p>
+		<nav id="nav">
+			<ul>
+				<li><a href="#">关于人人店</a></li>
+				<li><a href="#">商城系统</a></li>
+				<li><a href="#">开放平台</a></li>
+				<li><a href="#">人人分销</a></li>
+				<li><a href="#" style="">用户管理</a></li>
+			</ul>
+		</nav>
+	</header>
+	<banner class="img1">
+			<img src="images/banner-0.png"/>
+	</banner>
+	<section>
+		<div class="content1 clearfix">
+			<span class="line1 fl"></span>
+			<h3 class="fl"></h3>	
+			<span class="line2 fr"></span>
+		</div>
+		<ul class="home">
+			<li>
+				<div></div>
+				<h3>我是中小企业</h3>
+				<p>免费,一件创建,无需维护,我们倾力打造的官网云商城系统，帮助中小型企业轻松创建高比个的官网商城</p>
+			</li>
+			<li>
+				<div class="home_img1"></div>
+				<h3>我是中小企业</h3>
+				<p>免费,一件创建,无需维护,我们倾力打造的官网云商城系统，帮助中小型企业轻松创建高比个的官网商城</p>
+			</li>
+			<li>
+				<div class="home_img2"></div>
+				<h3>我是中小企业</h3>
+				<p>免费,一件创建,无需维护,我们倾力打造的官网云商城系统，帮助中小型企业轻松创建高比个的官网商城</p>
+			</li>
+			<li style="margin-right:0; ">
+				<div class="home_img3"></div>
+				<h3>我是中小企业</h3>
+				<p>免费,一件创建,无需维护,我们倾力打造的官网云商城系统，帮助中小型企业轻松创建高比个的官网商城</p>
+			</li>
+		</ul>
+		<banner class="banner"></banner>
+		<ul class="home2">
+			<li>
+				<p></p>
+			</li>
+			<li>
+				<p class="home2_img1"></p>
+			</li>
+			<li>
+				<p class="home2_img2"></p>
+			</li>
+			<li>
+				<p class="home2_img3"></p>
+			</li>
+			<li style="margin-right: 0;">
+				<p class="home2_img4"></p>
+			</li>
+		</ul>
+
+	</section>
+</div>
+</body>
+</html>

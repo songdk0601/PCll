@@ -1,0 +1,78 @@
+.heard{width: 100%;}
+		.heard img{float: left; margin-left: 250px;}
+		.heard .DaoHang{margin-left:650px; width:650px; display: flex;}
+		.heard .DaoHang .GuanRen{flex:2; margin-top: 30px;}
+		.heard .DaoHang .GuanRen .aa { color: #000; font-size: 18px;font-family: '微软雅黑'; font-weight: bold;}
+		.heard .DaoHang .GuanRen:hover .aa{color: blue; }
+		.heard .DaoHang .YongHu{position: relative; }
+		.heard .DaoHang .Gfirst{padding-top: 30px;}
+		.heard .DaoHang .YongHu ul{position: absolute;bottom: -128px;left: 0;width: 170px; background: #FFF; z-index: 1;display: none;}
+		.heard .DaoHang .YongHu a{font-size: 18px; line-height: 25px;}
+		.heard .DaoHang .YongHu:hover ul{display: block;}
+		.heard .DaoHang .YongHu a:hover{color: blue; }
+		
+		.ZhuTi{width: 100%;height: 436px; position:relative; overflow:hidden;}
+		.ZhuTi .Tou {position:absolute; left:0; top:0;}
+		.ZhuTi .Tou  .toux1{width:1400px;height: 100%;  float:left;}
+		.ZhuTi .Tou .toux1 img{width: 100%;height:100%;}
+		ol{position:absolute; left:50%; bottom:0; width:250px; margin-left:-125px;}
+		ol li{width:30px; height:30px; background: orange; border-radius:50%; float:left; margin:10px;}
+		ol li.on{background: #ccc;}
+		
+		
+		.box {width: 1028px; margin-left: 130px;}
+		.Fuwu{width: 100%; text-align: center; color: #707070; font-size: 14px; margin-top:65px;}
+		.Fuwu h2{font-size: 24px; font-weight: bold; color: #000; line-height: 32px;}
+		.Fuwu .p1{;padding-top: 25px;}
+		.MaJia{width: 100%;margin-top: 50px;}
+		.WoMai{width:320px; height:510px; border:1px solid #ccc; position: relative; float: left; margin-left: 31px;}
+		.WoMai2 {margin-left: 0; }
+		.WoMai .WoMait{width: 270px; height: 140px; background: url(../images/our-service.png) 0 0 no-repeat; position: absolute;top:33px; left:23px;}
+		.WoMai .WoMait2{background: url(../images/our-service.png) 0 -130px no-repeat;}
+		.WoMai .WoMait3{background: url(../images/our-service.png) 0 -280px no-repeat;}
+		.WoMai h2{position: absolute;top:215px; left: 110px; font-size: 22px; font-weight: bold;}
+		.WoMai p{font-size: 14px; color: #707070; position: absolute; top:264px; left:42px;}
+		.WoMai a{display: block;width: 152px; height: 40px; border: 1px solid orange; border-radius:10px; line-height: 40px; text-align: center; position: absolute;top:420px; left: 70px;}
+		.WoMai a:hover{background: orange;}
+
+		.ChaJian{font-size: 12px; color:#707070;width: 100%; text-align: center; margin-top: 125px;}
+		.ChaJian h1{font-size: 24px; font-weight: bold; color: #000;}
+		.ChaJian p{font-size: 14px;}
+
+		.PingTai{ width: 100%; margin-top: 30px;}
+		.PingTai li{width: 330px; height: 200px; font-size: 12px; color: #666;position: relative;border: 1px solid #ccc; float: left; margin-left: 10px; margin-top: 20px;}
+
+		.PingTai .ShangChe2{margin-left: 0;}
+		.PingTai li div{width: 50px; height:50px; background:url(../images/question-sprite.png) 0 -50px no-repeat; position: absolute; top:40px; left: 25px;}
+		
+		.PingTai li:hover div{background: url(../images/question-sprite.png) 0 0 no-repeat;}
+		.PingTai li:hover div{background-color:blue;}
+		.PingTai li .JiLing2{background:url(../images/question-sprite.png) -50px -50px no-repeat;}
+		.PingTai li:hover .JiLing2{background: url(../images/question-sprite.png)-50px 0  no-repeat;}
+		.PingTai li .JiLing3{background:url(../images/question-sprite.png) -100px -50px no-repeat;}
+		.PingTai li:hover .JiLing3{background: url(../images/question-sprite.png)-100px 0  no-repeat;}
+		.PingTai li .JiLing4{background:url(../images/question-sprite.png) -150px -50px no-repeat;}
+		.PingTai li:hover .JiLing4{background: url(../images/question-sprite.png)-150px 0  no-repeat;}
+		.PingTai li .JiLing5{background:url(../images/question-sprite.png) -200px -50px no-repeat;}
+		.PingTai li:hover .JiLing5{background: url(../images/question-sprite.png)-200px 0  no-repeat;}
+		.PingTai li .JiLing6{background:url(../images/question-sprite.png) -250px -50px no-repeat;}
+		.PingTai li:hover .JiLing6{background: url(../images/question-sprite.png)-250px 0  no-repeat;}
+		.PingTai li h1{font-size: 24px; color: #000; position: absolute;top:40px; left:100px;}
+		.PingTai li p{line-height: 30px; position: absolute;top:75px; left: 100px;}
+		.PingTai li{background: }
+
+		.AnLi{width: 100%; margin-top: 40px;}
+		.AnLi .ShiLi{width: 324px; height: 212px; position: relative; float: left; margin-left: 18px; overflow: hidden;}
+		.AnLi .ShiLi2{margin-left: 0;}
+		.AnLi .ShiLi img{width: 100%; height:100%;transition:0.5s;}
+		.AnLi .ShiLi:hover img{transform:scale(1.2,1.2);}
+		.AnLi .ShiLi h1{width: 80px; height: 80px; position:absolute; top:70px; left: 130px;}
+		.AnLi .ShiLi:hover h1{background: url(../images/ser.png) 0 0 no-repeat;} 
+		.AnLi .ShiLi .ShiJian{width:100%; height:45px;position: absolute; left: 0;bottom: 0; }
+		.AnLi .ShiLi .ShiJian .SaJa{width: 100%; height:100%; position:absolute; bottom:0; left:0;   background: blue; opacity: 0.5;}
+		.AnLi .ShiLi .ShiJian .SaJatxt{ width: 100%;height: 100%; text-align: center;line-height: 45px; color: #000; position:absolute; bottom:0; left:0;}
+		.AnLi span{transition:0.5s;width: 100%;height: 100%; position:absolute; top:0; left:0;background: #000; opacity: 0;}
+		.AnLi .ShiLi:hover span{opacity: 0.5;}
+		.TaBao{width: 100%;}
+		.TaBao li{width: 100px;height: 40px; background: url(../images/tao.png) 0 0 no-repeat;  float: left; margin-left: 132px; margin-top: 45px;}
+		.TaBao .Taa1{margin-left: 0;}

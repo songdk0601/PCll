@@ -1,0 +1,41 @@
+.heard{width: 100%;}
+		.heard img{float: left; margin-left: 250px;}
+		.heard .DaoHang{margin-left:650px; width:650px; display: flex;}
+		.heard .DaoHang .GuanRen{flex:2; margin-top: 30px;}
+		.heard .DaoHang .GuanRen .aa { color: #000; font-size: 18px;font-family: '微软雅黑'; font-weight: bold;}
+		.heard .DaoHang .GuanRen:hover .aa{color: blue; }
+		.heard .DaoHang .YongHu{position: relative; }
+		.heard .DaoHang .Gfirst{padding-top: 30px;}
+		.heard .DaoHang .YongHu ul{position: absolute;bottom: -128px;left: 0;width: 170px; background: #FFF; z-index: 1;display: none;}
+		.heard .DaoHang .YongHu a{font-size: 18px; line-height: 25px;}
+		.heard .DaoHang .YongHu:hover ul{display: block;}
+		.heard .DaoHang .YongHu a:hover{color: blue; }
+
+		.ZhuTi{width: 100%;height: 436px; position:relative; overflow:hidden;}
+		.ZhuTi .Tou {position:absolute; left:0; top:0;}
+		.ZhuTi .Tou  .toux1{width:1400px;height: 100%;  float:left;}
+		.ZhuTi .Tou .toux1 img{width: 100%;height:100%;}
+		ol{position:absolute; left:50%; bottom:0; width:250px; margin-left:-125px;}
+		ol li{width:30px; height:30px; background: orange; border-radius:50%; float:left; margin:10px;}
+		ol li.on{background: #ccc;}
+		
+		.ChaJian{font-size: 12px; color:#707070;width: 100%; text-align: center; margin-top: 125px;}
+		.ChaJian h1{font-size: 24px; font-weight: bold; color: #000;}
+		.ChaJian p{font-size: 14px;}
+
+		.box{width:1028px; margin-left: 150px;}
+		.LiangDi{width: 100%; margin-top: 100px;}
+		.LiangDi .HuoJian{border-bottom:1px solid #ccc;}
+		.LiangDi .HuoJian h1{width: 280px; height:233px; background: url(../images/yingxiao_rocket.png) 0 0 no-repeat; background-size:100%; float: left; margin-left: 100px;}
+		.LiangDi .HuoJian .Shengj{float: left; text-align: center; margin-left: 150px; margin-top: 30px;}
+		.LiangDi .HuoJian h2{font-size: 30px; font-weight: bold; color: red; margin-}
+		.LiangDi .HuoJian p{font-size: 20px; color: #707070; line-height: 40px;}
+		.LiangDi .HuoJian .FanXia2{background: url(../images/fenxiao_icc.png) 0 0 no-repeat; background-size:100%;}
+		.LiangDi .HuoJian .FanXia3{background: url(../images/fenxiao_icc.png) 0 -235px no-repeat; background-size:100%; height: 250px;}
+		.LiangDi .HuoJian .FanXia4{background: url(../images/fenxiao_icc.png) 0 -485px no-repeat; background-size:100%;}
+		.LiangDi .HuoJian .FanXia5{background: url(../images/yingxiao_theme.png) 0 0 no-repeat; background-size:100%;}
+		.LiangDi .HuoJian .FanXia6{background: url(../images/fenxiao_hub.png) 0 0 no-repeat; background-size:100%;height: 260px;}
+		.LiangDi .HuoJian .FanXia7{background: url(../images/banner-3.gif) 0 0 no-repeat; background-size:100% 100%;}
+
+		.TiYan {width: 100%; margin-top: 40px;}
+		.TiYan a{display: block; width: 200px; height:55px; font-size: 20px; border:2px solid #fe982d; color: #fe982d; text-align: center; line-height: 55px; font-weight: bold; margin-left: 500px;}
